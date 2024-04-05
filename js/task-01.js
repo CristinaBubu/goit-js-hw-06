@@ -13,6 +13,6 @@ for (let i = 0; i < categoryItems.length; i++) {
   const categoryName = category.querySelector('h2').textContent;
   console.log(`Category: ${categoryName}`);
 
-  const elementsCount = category.querySelectorAll('li').length;
-  console.log(`Elements: ${elementsCount}`);
+  const elementsNumber = category.querySelectorAll('li').length;
+  console.log(`Elements: ${elementsNumber}`);
 }
