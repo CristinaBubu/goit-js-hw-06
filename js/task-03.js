@@ -18,4 +18,10 @@ const markup = images.map((image) => `<li><img src="${image.url}" alt = "${image
 
 list.insertAdjacentHTML("afterbegin", markup);
 
-list.style.display = "flex";
+list.style.cssText = `display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+margin: 20;
+padding: 20;
+gap: 20px;`;
